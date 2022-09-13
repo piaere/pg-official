@@ -9,9 +9,10 @@ const Home = () => {
       {" "}
       <Header />
       <div className="container">
+        <div className="description">RECORD PRODUCER / WEB DEVELOPER</div>
         <img src={pg} alt="portrait" className="portrait"></img>
       </div>
-        {/* <Scroll /> */}
+      {/* <Scroll /> */}
     </>
   );
 };

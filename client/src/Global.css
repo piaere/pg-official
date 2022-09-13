@@ -44,8 +44,15 @@ h6 {
 }
 
 @font-face {
-  font-family: 'PPNeueMontreal';
-  src: local('PPNeueMontreal-Book'), url(./fonts/PPNeueMontreal-Book.woff) format('woff');
+  font-family: "PPNeueMontreal";
+  src: local("PPNeueMontreal-Book"),
+    url(./fonts/PPNeueMontreal-Book.woff) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: "PPHatton-Light";
+  src: local("PPHatton-Light"), url(./fonts/PPHatton-Light.woff) format("woff");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
