@@ -42,6 +42,10 @@ h6 {
 #__next {
   isolation: isolate;
 }
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
 
 @font-face {
   font-family: "PPNeueMontreal";
