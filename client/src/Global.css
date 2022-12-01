@@ -10,6 +10,9 @@ html,
 body {
   height: 100%;
   background: rgb(249, 235, 241);
+  font-family: PPNeueMontreal-Book;
+  margin: 5px 20px 0;
+  
 }
 body {
   line-height: 1.5;

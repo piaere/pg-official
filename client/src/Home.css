@@ -1,5 +1,5 @@
 .container {
-  margin: 40px 20px;
+  margin: 40px 0;
   display: flex;
   justify-content: right;
   border-bottom: 1px black solid;
