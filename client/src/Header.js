@@ -1,13 +1,13 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import Music from "./music";
-import Web from "./web";
 
 const Header = () => {
   return (
     <div className="container-header">
       <div className="left">
-        <div className="name">Pierre Guerineau</div>
+        <Link to="/" className="name">
+          Pierre Guerineau
+        </Link>
         <Link to="/music" className="section">
           music
         </Link>
